@@ -42,6 +42,13 @@ p.view-online {
     color: #999999;
 }
 
+.preview-subject {
+    font-family: monospace;
+    border: 2px dashed orange;
+    padding: 10px;
+    background: #ffffff;
+}
+
 td {
     hyphens: none;
     -moz-hyphens: none;
@@ -75,10 +82,9 @@ table.button table td {
 }
 
 sup {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 12px;
     display: inline-block;
-    margin-left: 3px;
 }
 
 // <br class="hide-hardbreak">
@@ -135,7 +141,7 @@ th.large-6.address-cell {
         margin: 0;
     }
     .lang-live-logo {
-        width: 200px;
+        width: 200px !important;
     }
     .vsl-logo {
         max-width: 154px;
